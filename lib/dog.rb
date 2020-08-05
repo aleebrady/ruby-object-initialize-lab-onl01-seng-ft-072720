@@ -4,11 +4,11 @@ class Dog
     @name = name
   end
   
-  def name=(name)
+  def name_set=(name)
     @name = name
   end
   
-  def name
+  def name_get
     @name
   end
   
